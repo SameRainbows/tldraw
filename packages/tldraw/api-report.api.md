@@ -208,6 +208,9 @@ export interface ActionsProviderProps {
     overrides?(editor: Editor, actions: TLUiActionsContextType, helpers: TLUiOverrideHelpers): TLUiActionsContextType;
 }
 
+// @public
+export function addRoundedRectPath(path: Path2D, box: Box, radius: number, counterClockwise?: boolean): void;
+
 // @public (undocumented)
 export type AlertSeverity = 'error' | 'info' | 'success' | 'warning';
 

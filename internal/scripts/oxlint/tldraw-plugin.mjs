@@ -749,7 +749,7 @@ const rules = {
 		meta: {
 			messages: {
 				noRoundRect:
-					'Avoid `Path2D#roundRect()`; use `Path2D#rect()`, an SVG path string, or manual path commands instead.',
+					'Avoid `Path2D#roundRect()`; use `addRoundedRectPath()`, `Path2D#rect()`, an SVG path string, or manual path commands instead.',
 			},
 			type: 'problem',
 			schema: [],
